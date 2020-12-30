@@ -1,0 +1,3 @@
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/cmake-build-debug/CMakeFiles/zadacha1.dir
