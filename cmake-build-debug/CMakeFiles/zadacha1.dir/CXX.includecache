@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ArcGraph.cpp
+ArcGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ArcGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ArcGraph.h
+vector
+-
+tuple
+-
+IGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/IGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/IGraph.h
+vector
+-
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ListGraph.cpp
+ListGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ListGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ListGraph.h
+vector
+-
+cassert
+-
+queue
+-
+stack
+-
+list
+-
+IGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/IGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/MatrixGraph.cpp
+MatrixGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/MatrixGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/MatrixGraph.h
+IGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/IGraph.h
+vector
+-
+cassert
+-
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/SetGraph.cpp
+SetGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/SetGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/SetGraph.h
+cassert
+-
+unordered_set
+-
+vector
+-
+IGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/IGraph.h
+
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/main.cpp
+iostream
+-
+ListGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ListGraph.h
+MatrixGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/MatrixGraph.h
+SetGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/SetGraph.h
+ArcGraph.h
+/home/yaroslav/Techno_park/1_sem/Алгосы/3 модуль/zadacha1/1zadacha_algos/ArcGraph.h
+
