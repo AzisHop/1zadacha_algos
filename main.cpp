@@ -6,8 +6,8 @@
 
 void BFS(const IGraph &graph, int vertex, void(*func)(int))
 {
-    std::vector<bool> visited(graph.vertices_count(), false);
-    std::queue<int> next_vertices;
+    queue<int> next_vertices;
+    vector<bool> visited(graph.vertices_count(), false);
 
     next_vertices.push(vertex);
     visited[vertex] = true;
@@ -41,22 +41,22 @@ int main() {
 
 
     MatrixGraph mgraph(graph);
+
     SetGraph sgraph(mgraph);
+
     ArcGraph agraph(sgraph);
 
-    BFS(graph, 0, [](int vertex) { std::cout << vertex << " "; });
-    std::cout << std::endl;
-    std::cout << "<--------------------------MatrixGraph--------------------------->" << std::endl;
-    BFS(mgraph, 0, [](int vertex) { std::cout << vertex << " "; });
-    std::cout << std::endl;
-    std::cout << "<----------------------------SetGraph---------------------------->" << std::endl;
-    BFS(sgraph, 0, [](int vertex) { std::cout << vertex << " "; });
-    std::cout << std::endl;
-    std::cout << "<----------------------------ArcGraph---------------------------->" << std::endl;
-    BFS(agraph, 0, [](int vertex) { std::cout << vertex << " "; });
-    std::cout << std::endl;
+    BFS(graph, 0, [](int vertex) {cout << vertex << " "; });
+    cout << endl;
+    cout << "Matrix Graph" << endl;
+    BFS(mgraph, 0, [](int vertex) {cout << vertex << " "; });
+    cout << endl;
+    cout << "Set Graph" << endl;
+    BFS(sgraph, 0, [](int vertex) {cout << vertex << " "; });
+    cout << endl;
+    cout << "Arc Graph" << endl;
+    BFS(agraph, 0, [](int vertex) {cout << vertex << " "; });
+    cout << endl;
 
-
-
-    return 0;
+    return EXIT_SUCCESS;
 }

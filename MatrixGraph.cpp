@@ -35,7 +35,7 @@ vector<int> MatrixGraph::get_next_vertices(int vertex) const {
 
 vector<int> MatrixGraph::get_prev_vertices(int vertex) const {
     assert(0 <= vertex && (size_t)(vertex) < parts.size());
-    std::vector<int> vertices;
+    vector<int> vertices;
     for (size_t i = 0; i < vertices_number; i++)
         if (parts[i][vertex])
             vertices.push_back(i);
